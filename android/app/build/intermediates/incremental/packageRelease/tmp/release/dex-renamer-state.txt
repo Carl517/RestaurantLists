@@ -1,0 +1,4 @@
+#Tue Mar 10 14:46:14 CST 2020
+base.0=F\:\\ReactNative\\directory\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

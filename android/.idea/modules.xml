@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="listar/app" />
+      <module fileurl="file://$PROJECT_DIR$/listar.iml" filepath="$PROJECT_DIR$/listar.iml" group="listar" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/@react-native-community/async-storage/android/react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/../node_modules/@react-native-community/async-storage/android/react-native-community_async-storage.iml" group="listar/react-native-community_async-storage" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/@react-native-community/datetimepicker/android/react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/../node_modules/@react-native-community/datetimepicker/android/react-native-community_datetimepicker.iml" group="listar/react-native-community_datetimepicker" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/@react-native-community/masked-view/android/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/../node_modules/@react-native-community/masked-view/android/react-native-community_masked-view.iml" group="listar/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/@react-native-community/viewpager/android/react-native-community_viewpager.iml" filepath="$PROJECT_DIR$/../node_modules/@react-native-community/viewpager/android/react-native-community_viewpager.iml" group="listar/react-native-community_viewpager" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-fast-image/android/react-native-fast-image.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-fast-image/android/react-native-fast-image.iml" group="listar/react-native-fast-image" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" group="listar/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/react-native-maps.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/react-native-maps.iml" group="listar/react-native-maps" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-reanimated/android/react-native-reanimated.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-reanimated/android/react-native-reanimated.iml" group="listar/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-safe-area-context/android/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-safe-area-context/android/react-native-safe-area-context.iml" group="listar/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-screens/android/react-native-screens.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-screens/android/react-native-screens.iml" group="listar/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-splash-screen/android/react-native-splash-screen.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-splash-screen/android/react-native-splash-screen.iml" group="listar/react-native-splash-screen" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" group="listar/react-native-vector-icons" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/rn-range-slider/android/rn-range-slider.iml" filepath="$PROJECT_DIR$/../node_modules/rn-range-slider/android/rn-range-slider.iml" group="listar/rn-range-slider" />
+    </modules>
+  </component>
+</project>
