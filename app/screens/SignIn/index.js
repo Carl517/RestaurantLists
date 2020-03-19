@@ -24,6 +24,8 @@ class SignIn extends Component {
   onLogin() {
     const { id, password, success } = this.state;
     const { navigation } = this.props;
+    const { dispatch } = this.props;
+
     if (id == "" || password == "") {
       this.setState({
         success: {
@@ -38,15 +40,29 @@ class SignIn extends Component {
           loading: true
         },
         () => {
-          this.props.actions.authentication(true, response => {
-            if (response.success && id == "test" && password == "123456") {
-              navigation.navigate("Profile");
+
+          let credential = {
+            id: id,
+            password: 'aHVycnlyMTI=',
+            email:"hurryrpvtltd@gmail.com"
+          }
+                         
+          this.props.actions.authentication(credential, response => {
+            
+            console.log("oks");
+            console.log(response.response.id);
+            if ( response.success ) {
+              // this.setState({
+              //   id:response.response.first_name
+              // });
+              navigation.navigate("Home");
             } else {
               this.setState({
                 loading: false
               });
             }
           });
+
         }
       );
     }
@@ -132,10 +148,11 @@ class SignIn extends Component {
               </Button>
             </View>
             <TouchableOpacity
-              onPress={() => navigation.navigate("ResetPassword")}
+              onPress={() => navigation.navigate("SignUp")}
             >
               <Text body1 grayColor style={{ marginTop: 25 }}>
-                Forgot your password?
+                Create a new user 
+                {/* Forgot your password? */}
               </Text>
             </TouchableOpacity>
           </View>

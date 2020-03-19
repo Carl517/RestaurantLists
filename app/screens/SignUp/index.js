@@ -23,8 +23,8 @@ export default class SignUp extends Component {
   onSignUp() {
     const { navigation } = this.props;
     let { name, email, address, success } = this.state;
-
-    if (name == "" || email == "" || address == "") {
+    if (name == "" || email == "" || address == "") {      
+      
       this.setState({
         success: {
           ...success,
@@ -33,12 +33,16 @@ export default class SignUp extends Component {
           address: address != "" ? true : false
         }
       });
+
     } else {
       this.setState(
         {
           loading: true
         },
         () => {
+
+          
+
           setTimeout(() => {
             this.setState({
               loading: false

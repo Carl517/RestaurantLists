@@ -88,7 +88,7 @@ const routeConfigs = {
   Place: {
     screen: Place,
     navigationOptions: ({ navigation }) => ({
-      title: "Place",
+      title: "Mexican",
       tabBarIcon: ({ focused, tintColor }) => {
         return (
           //  <Icon solid color={tintColor} name="map-marker-alt" size={20} solid />          

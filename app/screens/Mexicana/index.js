@@ -31,7 +31,7 @@ export default class Place extends Component {
 
     this.state = {
       refreshing: false,
-      modeView: "list",
+      modeView: "block",
       mapView: false,
       region: {
         latitude: PlaceListData[0].region.latitude,
@@ -182,6 +182,7 @@ export default class Place extends Component {
               keyExtractor={(item, index) => item.id}
               renderItem={({ item, index }) => (
 
+                                  
                 <PlaceItem
                   block
                   image={item.image}
@@ -566,7 +567,7 @@ export default class Place extends Component {
         forceInset={{ top: "always" }}
       >
         <Header
-          title="Mexicana"
+          title="Place"
           renderRight={() => {
             return (
               <Icon
@@ -576,7 +577,6 @@ export default class Place extends Component {
               />
             );
           }}
-          
           renderRightSecond={() => {
             return (
               <Icon name="search" size={24} color={BaseColor.primaryColor} />
@@ -592,7 +592,6 @@ export default class Place extends Component {
             this.onChangeMapView();
           }}
         />
-
         {mapView ? this.renderMapView() : this.renderList()}
       </SafeAreaView>
     );

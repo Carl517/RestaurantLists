@@ -31,16 +31,20 @@ export default class PlaceItem extends Component {
     return (
       <View style={style}>
         <TouchableOpacity onPress={onPress} activeOpacity={0.9}>
+
           <Image source={image} style={styles.blockImage} />
           <Tag status style={styles.tagStatus}>
             {status}
           </Tag>
+
+          
           <Icon
             name="heart"
             color={BaseColor.whiteColor}
             size={24}
             style={styles.iconLike}
           />
+
           <View style={styles.blockContentRate}>
             <View
               style={{
@@ -130,9 +134,11 @@ export default class PlaceItem extends Component {
       <View style={[styles.listContent, style]}>
         <TouchableOpacity onPress={onPress} activeOpacity={0.9}>
           <Image source={image} style={styles.listImage} />
-          <Tag status style={styles.listTagStatus}>
+          
+          {/* <Tag status style={styles.listTagStatus}>
             {status}
           </Tag>
+           */}
         </TouchableOpacity>
         <View style={styles.listContentRight}>
           <Text headline semibold grayColor>
@@ -193,12 +199,14 @@ export default class PlaceItem extends Component {
           <Tag status style={styles.tagGirdStatus}>
             {status}
           </Tag>
+          
           <Icon
             name="heart"
             color={BaseColor.whiteColor}
             size={18}
             style={styles.iconGirdLike}
           />
+          
         </TouchableOpacity>
         <Text footnote semibold grayColor style={{ marginTop: 5 }}>
           {subtitle}
